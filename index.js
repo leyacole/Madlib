@@ -33,6 +33,8 @@ function techMadlib() {
 	var noun = prompt("Give me a noun");
 	var room = prompt("Give me a room in the house");
 	var noun2 = prompt("Give me a plural noun");
+	alert("Thank you for playing");
+
 
 	$('.madlibs').html("Since I use my computer everyday, it can get "+adjective+" really quickly. I usually clean it "+num+" times a day. My rountine consists of grabbing a soft "+noun+"  from the "+room+" and wiping down the keyboard to get rid of all the "+noun2+"!")
 
@@ -48,6 +50,8 @@ function leyaMadlib() {
 	var adjective = prompt("Give me an adjective");
 	var name = prompt("Give me a name");
 	var adjective2 = prompt("Give me an adjective");
+	alert("Thank you for playing");
+
 
 	$('.madlibs').html(" I "+adjective+" everyday in the park and see "+name+" all the time. He says what "+adjective2+" are you doing?")
 }
